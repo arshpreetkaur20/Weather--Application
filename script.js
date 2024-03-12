@@ -19,10 +19,10 @@ const searchCity = () => {
         })
 }
 showWeatherData = (weatherData) => {
-    document.getElementById("city-name").innerText = weatherData.name;
-    document.getElementById("weather-type").innerText = weatherData.weather[0].main;
+    document.getElementById("city_name").innerText = weatherData.name;
+    document.getElementById("weather_type").innerText = weatherData.weather[0].main;
     document.getElementById("temp").innerText = weatherData.main.temp;
-    document.getElementById("min-temp").innerText = weatherData.main.temp_min;
-    document.getElementById("max-temp").innerText = weatherData.main.temp_max;
+    document.getElementById("min_temp").innerText = weatherData.main.temp_min;
+    document.getElementById("max_temp").innerText = weatherData.main.temp_max;
 }
 
